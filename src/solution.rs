@@ -1,5 +1,6 @@
 //use keyword is used to shorten the path required to refer to a module item. The core functionality in Rust is provided by a module called std. std::io allows you access input and output functionality.
 use std::io;
+//function declaration
 fn mod_inverse(a: i32, m: i32) {
     // we're trying to change values of x and y in the gcd function so we declare them mutably and pass their references to the function
     //we declare mutable because variables in rust are immutable meaning their values can't be changed if you have used a language like javascript before it would have the same implication as when you use const variables
@@ -16,7 +17,7 @@ fn mod_inverse(a: i32, m: i32) {
     }
 }
 
-// x and y are of referenced mutable types  
+// x and y are of referenced mutable types, also the function gcd_extended is being declared
 fn gcd_extended(a: i32, b: i32, x: &mut i32, y: &mut i32) -> i32 {
     //the if block executes if and only if the value of a is 0
     if a == 0 {
@@ -42,6 +43,7 @@ fn gcd_extended(a: i32, b: i32, x: &mut i32, y: &mut i32) -> i32 {
     //gcd is returned meaning the gcd value is what is sent to main program whenever function is called and terminates
     return gcd;
 }
+// pub makes any module, function, or data structure accessible from inside of external modules
 pub fn run() {
     //prompt to tell user to enter the number of which they want to find modulus
     println!("please enter a number");
