@@ -1,0 +1,1 @@
+C:\Users\Ojo\Desktop\Job\ hunting\euclidealgo_solution\target\debug\euclidealgo_solution.exe: C:\Users\Ojo\Desktop\Job\ hunting\euclidealgo_solution\src\main.rs C:\Users\Ojo\Desktop\Job\ hunting\euclidealgo_solution\src\solution.rs
