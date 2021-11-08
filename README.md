@@ -1,4 +1,5 @@
-#MultiplicativeInverseusingEuclideanAlgorithm
+# MultiplicativeInverseusingEuclideanAlgorithm
+
 The code in this repo finds the multiplicative inverse of any number entered by a user using the extended euclidean algorithm.
 
 The Euclidean algorithm and Extended Euclidean algorithm are both used to find the GCD which we must find before finding the multiplicative inverse of a number. Only difference is that the extended Euclidean algorithm makes use of extra variables to arrive at its answer and is more suitable for computer programs.
