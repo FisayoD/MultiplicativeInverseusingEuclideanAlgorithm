@@ -1,3 +1,6 @@
+#MultiplicativeInverseusingEuclideanAlgorithm
+The code in this repo finds the multiplicative inverse of any number entered by a user using the extended euclidean algorithm.
+
 The Euclidean algorithm and Extended Euclidean algorithm are both used to find the GCD which we must find before finding the multiplicative inverse of a number. Only difference is that the extended Euclidean algorithm makes use of extra variables to arrive at its answer and is more suitable for computer programs.
 The GCD is the Highest common factor which we were taught in elementary school mathematics. 
 To find multiplicative inverse the gcd must be equal to 1. Which means that multiplicative inverse of “a modulo m” exists if and only if a and m are relatively prime. The modular multiplicative inverse is an integer ‘x’ such that:
