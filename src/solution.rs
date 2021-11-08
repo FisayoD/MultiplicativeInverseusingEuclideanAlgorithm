@@ -32,6 +32,7 @@ fn gcd_extended(a: i32, b: i32, x: &mut i32, y: &mut i32) -> i32 {
     //the variable x and y also stores results of recursive call
     let mut x1 = 0;
     let mut y1 = 0;
+    //bind function values to variables, also note that the gcd_extended is a recursive call meaning the function is calling itself and as gcd works in practice it will continue to happen until there's a final answer and it terminates
     let gcd = gcd_extended(b % a, a, &mut x1, &mut y1);
 
     // remember, we dereference with the asterisks so we can assign new values to x and y
